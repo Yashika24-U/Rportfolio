@@ -79,13 +79,18 @@ const Landing = ({ setSelectedPage }) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <AnchorLink
+            {/* <AnchorLink
               className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
                 hover:bg-blue hover:text-white transition duration-500"
               onClick={() => setSelectedPage("contact")}
               href="#contact"
-            >
-              Contact Me
+            > */}<AnchorLink
+                className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                hover:bg-blue hover:text-white transition duration-500"
+                onClick={() => window.open('your_resume_url_here', '_blank')}
+              >
+
+              Resume
             </AnchorLink>
             <AnchorLink
               className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
