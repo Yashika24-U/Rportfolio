@@ -15,8 +15,20 @@ const SocialMediaIcons = ()=>{
             href = "https://github.com/Yashika24-U"
             target = "_blank"
             rel ="noreferrer">
-                <img alt = "github-link" src = "../assets/instagram.png"/>
-            </a>
+                {/* <img alt = "github-link" src = "../assets/g.png" height = "30px" width= "30px" style={{backgroundColor:"deep-blue"}} /> */}
+                        <img alt="github-link" src="../assets/g.png" height="30px" width="30px"  style={{
+                            backgroundColor:"deep-blue",
+                            border: "2px solid white", 
+                            borderRadius: 5 
+        }}/>
+        </a>
+        
+        
+        
+        
+        
+
+            
            
 
         </div>

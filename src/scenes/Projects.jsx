@@ -18,14 +18,69 @@ const container =  {
     duration-500 bg-grey z-30 flex flex-col justify-center
     items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
+  
+    // Define the links for each project
+    const projectLinks = {
+      "Project 1": {
+        frontend: <a href = "https://github.com/Yashika24-U/Gmailclone-frontend" target='_blank'>frontend</a>,
+        backend: <a href = "https://github.com/Yashika24-U/gmail_clone-backend" target='_blank'>backend</a>,
+        deployment:<a href = "https://warm-palmier-85a57e.netlify.app/emails/inbox" target='_blank'>deployment</a>
+      },
+      "Project 2": {
+        frontend: <a href = "https://github.com/Yashika24-U/CompleteAuthenticationFE" target='_blank'>frontend</a>,
+        backend: <a href = "https://github.com/Yashika24-U/CompleteAuthenticationBE" target='_blank'>backend</a>,
+        deployment:<a href =  "https://symphonious-biscuit-22ff7b.netlify.app/ " target='_blank'>deployment</a>
+      },
+      "Project 3": {
+        frontend: <a href =  "https://github.com/Yashika24-U/CrudFE" target = '_blank'>frontend</a>,
+        backend: <a href = "https://github.com/Yashika24-U/CRUDbE"target ='_blank' >backend</a>,
+        deployment: <a href = "https://github.com/Yashika24-U/CRUDbE" target ='_blank' >backend</a>
+      },
+      "Project 4": {
+        frontend:<a href =  "https://github.com/Yashika24-U/AdminDashboard-ReactJS" target = '_blank'>frontend</a>, 
+        deployment: <a href = "https://6504fb9525bea348979fd384--poetic-kashata-25b6e4.netlify.app/" target ='_blank'>deployment</a>
+      },
+      "Project 5": {
+        frontend:<a href="https://github.com/Yashika24-U/muipractice" target = '_blank'>frontend</a>,
+        deployment: <a href = "https://incredible-tapioca-642f43.netlify.app/" target = '_blank'>deployment</a>
+      },
+
+      // Add links for other projects here
+    };
+  
+    const links = projectLinks[title] || {}
 return(
     <motion.div variants = {projectVariant}
     className="relative">
         <div className={overlayStyles}>
             <p className="text-2xl font-playfair">{title}</p>
-            <p className="mt-7">  random text</p>
+            <p className="mt-7">  
+            
+              {/* Conditionally display the links when hovering over the project */
+          links.frontend && (
+            <a href={links.frontend} target="_blank" rel="noopener noreferrer" className="block mt-2 text-blue hover:underline">
+              {links.frontend}
+            </a>
+          )}
+
+          {links.backend && (
+            <a href={links.backend} target="_blank" rel="noopener noreferrer" className="block mt-2 text-blue hover:underline">
+              {links.backend}
+            </a>
+          )}
+
+          {links.deployment && (
+            <a href={links.deployment} target="_blank" rel="noopener noreferrer" className="block mt-2 text-blue hover:underline">
+              {links.deployment}
+            </a>
+          )}
+            
+            
+            
+            
+            </p>
         </div>
-        <img src= {`../assets/${projectTitle}.jpeg`} alt = {projectTitle}/>
+        <img src= {`../assets/${projectTitle}.jpg` } alt = {projectTitle} width= "400" height = "300"/>
 
     </motion.div>
 
@@ -91,8 +146,8 @@ const Projects = ()=>{
           <Project title = "Project 5" />
 
            {/* ROW 2 */}
-           <Project title = "Project 6" />
-           <Project title = "Project 7" />
+           {/* <Project title = "Project 6" />
+           <Project title = "Project 7" /> */}
 
 
            <div
