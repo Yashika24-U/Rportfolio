@@ -34,7 +34,7 @@ const container =  {
       "Project 3": {
         frontend: <a href =  "https://github.com/Yashika24-U/CrudFE" target = '_blank'>frontend</a>,
         backend: <a href = "https://github.com/Yashika24-U/CRUDbE"target ='_blank' >backend</a>,
-        deployment: <a href = "https://github.com/Yashika24-U/CRUDbE" target ='_blank' >backend</a>
+        deployment: <a href = "https://subtle-sopapillas-213b0f.netlify.app/" target ='_blank' >backend</a>
       },
       "Project 4": {
         frontend:<a href =  "https://github.com/Yashika24-U/AdminDashboard-ReactJS" target = '_blank'>frontend</a>, 
