@@ -78,20 +78,28 @@ const Landing = ({ setSelectedPage }) => {
               hidden: { opacity: 0, x: -50 },
               visible: { opacity: 1, x: 0 },
             }}
-          >
-            {/* <AnchorLink
-              className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-                hover:bg-blue hover:text-white transition duration-500"
-              onClick={() => setSelectedPage("contact")}
-              href="#contact"
-            > */}<AnchorLink
-                className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-                hover:bg-blue hover:text-white transition duration-500"
-                onClick={() => window.open('your_resume_url_here', '_blank')}
-              >
+           >
+          {/* //   <AnchorLink
+          //     className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+          //       hover:bg-blue hover:text-white transition duration-500"
+          //     onClick={() => window.open('https://drive.google.com/file/d/1VZmb2Gct7_7rKw30k3jrbZkP3YYcZxyL/view?usp=sharing', '_blank')} 
+            
+          //     // href="#contact"
+          //     > */}
+             
+          
+          <a
+          className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+        hover:bg-blue hover:text-white transition duration-500"
+        href="https://drive.google.com/file/d/1VZmb2Gct7_7rKw30k3jrbZkP3YYcZxyL/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        Resume
+        </a>
 
-              Resume
-            </AnchorLink>
+              {/* Resume
+            </AnchorLink> */}
             <AnchorLink
               className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
               onClick={() => setSelectedPage("contact")}
