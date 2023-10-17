@@ -16,7 +16,7 @@ const SocialMediaIcons = ()=>{
             target = "_blank"
             rel ="noreferrer">
                 {/* <img alt = "github-link" src = "../assets/g.png" height = "30px" width= "30px" style={{backgroundColor:"deep-blue"}} /> */}
-                        <img alt="github-link" src="../assets/g.png" height="30px" width="30px"  style={{
+                        <img alt="github-link" src="../assets/githuub.jpg" height="30px" width="30px"  style={{
                             backgroundColor:"deep-blue",
                             border: "2px solid white", 
                             borderRadius: 5 
