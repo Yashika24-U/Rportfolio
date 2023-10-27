@@ -37,10 +37,16 @@ const container =  {
         deployment: <a href = "https://subtle-sopapillas-213b0f.netlify.app/" target ='_blank' >backend</a>
       },
       "Project 4": {
+        frontend: <a href =  "https://github.com/Yashika24-U/AN-AUTOMATED-E-PLACEMENT-PORTAL" target = '_blank'>frontend</a>,
+        backend: <a href = "https://github.com/Yashika24-U/AN-AUTOMATED-E-PLACEMENT-PORTAL" target ='_blank' >backend</a>,
+        
+      },
+
+      "Project 5": {
         frontend:<a href =  "https://github.com/Yashika24-U/AdminDashboard-ReactJS" target = '_blank'>frontend</a>, 
         deployment: <a href = "https://6504fb9525bea348979fd384--poetic-kashata-25b6e4.netlify.app/" target ='_blank'>deployment</a>
       },
-      "Project 5": {
+      "Project 6": {
         frontend:<a href="https://github.com/Yashika24-U/muipractice" target = '_blank'>frontend</a>,
         deployment: <a href = "https://incredible-tapioca-642f43.netlify.app/" target = '_blank'>deployment</a>
       },
@@ -146,8 +152,8 @@ const Projects = ()=>{
           <Project title = "Project 5" />
 
            {/* ROW 2 */}
-           {/* <Project title = "Project 6" />
-           <Project title = "Project 7" /> */}
+           <Project title = "Project 6" />
+           {/* <Project title = "Project 7" /> */}
 
 
            <div
