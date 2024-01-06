@@ -127,8 +127,8 @@ const Project = ({ title }) => {
         </a>
       ),
       deployment: (
-        <a href="https://symphonious-biscuit-22ff7b.netlify.app/" target="_blank">
-          backend
+        <a href="https://chimerical-zabaione-3b0441.netlify.app" target="_blank">
+         deployment
         </a>
       ),
     }, 
