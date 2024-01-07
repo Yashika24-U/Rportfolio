@@ -52,7 +52,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="text-6xl font-playfair p-10 z-10 text-center md:text-start">
             Yashika {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
@@ -62,8 +62,8 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            A passionate MERN stack developer,with a strong commitment to clean
+          <p className="mt-0 mb-0  p-7 text-sm text-center md:text-start text-container">
+            A passionate MERN stack developer, with a strong commitment to clean
             coding practices and a focus on user-centric design, I create
             software solutions that make a difference.
           </p>
@@ -90,9 +90,9 @@ const Landing = ({ setSelectedPage }) => {
           //     > */}
 
           <a
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 ml-10 font-semibold
         hover:bg-blue hover:text-white transition duration-500"
-            href="https://drive.google.com/file/d/1gnr3c9Uqzus3U6IU4tGZnkJ8Gv24yXDx/view"
+            href="https://drive.google.com/file/d/1juPZSevoRLizgqSfy_zXqEJzUJPCWCtc/view"
             target="_blank"
             rel="noopener noreferrer"
           >

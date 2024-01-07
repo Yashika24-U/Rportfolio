@@ -32,7 +32,7 @@ const Project = ({ title }) => {
         </a>
       ),
       deployment: (
-        <a href="https://stirring-kleicha-39fb7a.netlify.app" target="_blank">
+        <a href="https://myconnectverse.netlify.app" target="_blank">
           deployment
         </a>
       ),
@@ -56,7 +56,7 @@ const Project = ({ title }) => {
       ),
       deployment: (
         <a
-          href="https://warm-palmier-85a57e.netlify.app/emails/inbox"
+          href="https://watch-youtube.netlify.app"
           target="_blank"
         >
           deployment
@@ -82,7 +82,7 @@ const Project = ({ title }) => {
       ),
       deployment: (
         <a
-          href="https://warm-palmier-85a57e.netlify.app/emails/inbox"
+          href="https://emailplattform.netlify.app"
           target="_blank"
         >
           deployment

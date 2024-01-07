@@ -41,7 +41,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="h-64 bg-red pt-10">
+    <footer className="h-64 bg-red pt-2">
+     
       <div className="w-5/6 mx-auto text-center">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between mt-5">
